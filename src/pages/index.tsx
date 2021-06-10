@@ -19,6 +19,13 @@ export default function Home() {
         rating={3}
         description={'São Paulo'}
       />
+
+      <UserInformation
+        name={"Akira Hanashiro"}
+        picture={"https://github.com/hanashiro.png"}
+        rating={3}
+        description={'São Paulo'}
+      />
     </div>
   );
 }
