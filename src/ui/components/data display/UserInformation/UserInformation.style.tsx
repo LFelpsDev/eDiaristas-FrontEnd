@@ -3,7 +3,7 @@ import { Avatar, Rating } from '@material-ui/core'
 
 export const UserInformationContainer = styled('div')`
   display: grid;
-  grid-template-columns: 60px 1fr;
+  grid-template-columns: 60px 1fr; 
   grid-template-rows: repeat(3, auto); // <- Inves de auto, auto, auto
   grid-template-areas: 
     'avatar name' // cada gropo entre aspas vai ser uma linha
@@ -11,7 +11,7 @@ export const UserInformationContainer = styled('div')`
     'avatar description';
   background-color: ${({theme}) => theme.palette.grey[50]};
   padding: ${({theme}) => theme.spacing(3)}; // 24 px
-  gap: ${({theme}) => theme.spacing(0.5) + ' ' + theme.spacing(2)}; /// o primeiro é espaços das linhas e o segundo é espaços das colunas
+  gap: ${({theme}) => theme.spacing(0.5) + ' ' + theme.spacing(3)}; /// o primeiro é espaços das linhas e o segundo é espaços das colunas
   align-items: center;
 `;
 

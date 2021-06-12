@@ -21,7 +21,7 @@ export const HeaderAppBar = styled(AppBar)`
 `;
 
 export const HeaderLogo = styled("img")`
-  height: 25px;
+  ${({theme}) => theme.spacing(3)}; // 24 px 
 
   ${({ theme }) => theme.breakpoints.up("md")}{
     height: 47px;
